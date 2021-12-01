@@ -4,7 +4,7 @@
     <Card
       v-for="task in tasks.slice(0, 4)"
       v-bind:key="task.id"
-      v-bind:title="task.original_title"
+      v-bind:title="task.name"
       v-bind:overview="task.overview"
       v-bind:image="imageUrl + task.poster_path"
       >Tet</Card
